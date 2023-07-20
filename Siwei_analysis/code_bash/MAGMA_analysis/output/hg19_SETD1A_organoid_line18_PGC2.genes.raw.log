@@ -1,0 +1,38 @@
+Welcome to MAGMA v1.07b (linux/s)
+Using flags:
+	--gene-results hg19_SETD1A_organoid_line18_PGC2.genes.raw
+	--set-annot VPS45_gene_set_4_magma.txt col=2,1
+	--out output/hg19_SETD1A_organoid_line18_PGC2.genes.raw
+
+Start time is 11:19:06, Monday 14 Sep 2020
+
+Reading file hg19_SETD1A_organoid_line18_PGC2.genes.raw... 
+	18778 genes read from file
+Loading gene-set annotation...
+Reading file VPS45_gene_set_4_magma.txt... 
+	detected 2 variables in file
+	using variable: variable 2 (gene ID)
+	using variable: variable 1 (set ID)
+	3 gene-set definitions read from file
+	found 3 gene sets containing genes defined in genotype data (containing a total of 4028 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 3 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 3)
+	writing results to file output/hg19_SETD1A_organoid_line18_PGC2.genes.raw.gsa.out
+	writing gene information to file output/hg19_SETD1A_organoid_line18_PGC2.genes.raw.gsa.genes.out
+	writing gene analysis results per significant result (after multiple testing correction, at alpha = 0.05) to file output/hg19_SETD1A_organoid_line18_PGC2.genes.raw.gsa.sets.genes.out
+
+End time is 11:19:25, Monday 14 Sep 2020 (elapsed: 00:00:19)

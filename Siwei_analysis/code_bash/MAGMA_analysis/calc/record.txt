@@ -1,0 +1,14 @@
+../hg19_SETD1A_organoid_line18_ADHD.genes.raw	17045
+../hg19_SETD1A_organoid_line18_Autism.genes.raw	17310
+../hg19_SETD1A_organoid_line18_Bipolar.genes.raw	17458
+../hg19_SETD1A_organoid_line18_BMI.genes.raw	16169
+../hg19_SETD1A_organoid_line18_Education.genes.raw	17310
+../hg19_SETD1A_organoid_line18_Height.genes.raw	16450
+../hg19_SETD1A_organoid_line18_IBD.genes.raw	17424
+../hg19_SETD1A_organoid_line18_Intelligence.genes.raw	17886
+../hg19_SETD1A_organoid_line18_MDD.genes.raw	17483
+../hg19_SETD1A_organoid_line18_MDD_UKB2018.genes.raw	17171
+../hg19_SETD1A_organoid_line18_Neurotics.genes.raw	17339
+../hg19_SETD1A_organoid_line18_PGC2.genes.raw	17933
+../hg19_SETD1A_organoid_line18_use_SCZ1_genes.genes.raw	16483
+../hg19_SETD1A_organoid_line18_use_SCZ2.genes.raw	17933
